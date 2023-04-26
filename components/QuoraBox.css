@@ -1,0 +1,83 @@
+.quoraBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quoraBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.quoraBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.quoraBox__info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.quoraBox__quora {
+  display: flex;
+  margin-top: 8px;
+}
+
+.quoraBox__quora > p {
+  color: rgb(128, 128, 128);
+  font-weight: bold;
+  font-size: large;
+}
+
+/* this is upper code section */
+
+.search-box{
+    display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid lightgray;
+      background-color: white;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+/* .search-box {
+  border: 1.5px solid var(--grey);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+  padding: 0.48rem 0.48rem;
+  background-color: white;
+} */
+
+.user-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+  background-color: hsl(161, 83%, 50%);
+  border-radius: 50%;
+  align-items: center;
+  padding: 0.4rem
+}
+
+.search-and-userIcon-div {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.ask-answer-post-div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.3rem;
+
+}
+
+.send-post {
+  color: #838384;
+  font-weight: 300;
+  align-items: center;
+  border-right: 2px solid #838384;
+  padding: 0 3.22rem;
+}
